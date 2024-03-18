@@ -109,3 +109,77 @@ header {
         display: block;
     }
 }
+  /*botão do banner*/
+.esim-banner {
+    background-image: url('https://example.com/esim-banner-image.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 0 20px;
+  }
+  
+  .esim-banner h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .esim-banner p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .cta-button {
+    background-color: #ff6347;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #e65136;
+  }
+  
+  @media (max-width: 768px) {
+    .esim-banner {
+      height: 200px;
+    }
+  
+    .esim-banner h1 {
+      font-size: 2rem;
+    }
+  
+    .esim-banner p {
+      font-size: 1rem;
+    }
+  
+    .cta-button {
+      padding: 5px 10px;
+      font-size: 1rem;
+    }
+  }
+  /*banner*/
+  .banner-area {
+  width: 100%;
+  overflow: hidden;
+}
+
+.banner-area img {
+  width: 100%;
+  height: 80%;
+}
+
+@media (max-width: 768px) {
+  .banner-area img {
+    max-width: 100%;
+    height: auto;
+  }
+}
